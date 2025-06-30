@@ -14,7 +14,14 @@
       "ESNext",
       "DOM"
     ],
-    "skipLibCheck": true
+    "skipLibCheck": true,
+
+    // 配置 src 目录
+    "baseUrl": "./",
+    "paths": {
+      // 路径映射, 相对于 baseUrl
+      "@/*": ["src/*"]
+    }
   },
   "include": [
     "src/**/*.ts",
