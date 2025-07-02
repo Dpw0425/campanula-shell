@@ -1,8 +1,12 @@
-<script lang="ts" setup></script>
-
 <template>
-  <img id="logo" alt="Wails logo" src="./assets/images/logo-universal.png"/>
+  <div>
+    <Layout />
+  </div>
 </template>
+
+<script lang="ts" setup>
+import Layout from '@/layout/index.vue'
+</script>
 
 <style>
 #logo {
